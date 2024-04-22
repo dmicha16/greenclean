@@ -3,9 +3,18 @@
 Minimalist zsh theme that doesn't rely on oh-my-zsh and provides git branch name and status information
 
 ## Preview
-![Preview](http://raw.github.com/akz92/clean/master/img/preview.png)
+![Preview](http://raw.github.com/dmicha16/greenclean/master/img/greenclean.png)
 
 ## Installing
+
+## Using antidote
+
+Add the following to your **~/.zsh_plugins.txt ** file:
+```bash
+dmicha16/greenclean
+```
+
+See antidote tutorial [here](https://github.com/mattmc3/antidote?tab=readme-ov-file#usage)
 
 ### Using zplug
 
