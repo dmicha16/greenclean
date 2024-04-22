@@ -9,7 +9,7 @@ Minimalist zsh theme that doesn't rely on oh-my-zsh and provides git branch name
 
 ## Using antidote
 
-Add the following to your **~/.zsh_plugins.txt ** file:
+Add the following to your **~/.zsh_plugins.txt** file:
 ```bash
 dmicha16/greenclean
 ```
@@ -20,7 +20,7 @@ See antidote tutorial [here](https://github.com/mattmc3/antidote?tab=readme-ov-f
 
 Add the following to your **~/.zshrc** file:
 ```bash
-zplug "akz92/clean"
+zplug "dmicha16/greenclean"
 ```
 
 ### Using oh-my-zsh
@@ -28,5 +28,5 @@ zplug "akz92/clean"
 Put **clean.zsh-theme** in your **.oh-my-zhs/themes** directory, then in your **~/.zshrc** file:
 
 ```bash
-ZSH_THEME="clean"
+ZSH_THEME="greenclean"
 ```
