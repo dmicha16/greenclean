@@ -1,6 +1,6 @@
 # Clean
 
-Minimalist zsh theme that doesn't rely on oh-my-zsh and provides git branch name and status information
+Minimalist zsh theme that doesn't rely on oh-my-zsh and provides git branch name and status information and a permanent right clock
 
 ## Preview
 ![Preview](http://raw.github.com/dmicha16/greenclean/master/img/greenclean.png)
