@@ -15,12 +15,13 @@ precmd () {
     local git_branch='%F{green}$vcs_info_msg_0_'
   fi
 
-  RPROMPT="${git_branch}"
+  RPROMPT="%{$fg[white]%}%D{%H:%M:%S} | ${git_branch}%{$reset_color%}"
 
   if [ "$ZSH_CLEAN_PATH_STYLE" = "1" ]; then
-    PROMPT="%F{blue}%c%{$reset_color%} "
+    PROMPT="%F{green}%c%{$reset_color%} "
   else
-    PROMPT="%F{blue}%~%{$reset_color%} "
+    PROMPT="%F{green}%~%{$reset_color%} "
   fi
 }
+
 
